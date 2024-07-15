@@ -1,0 +1,104 @@
+body {
+   background: linear-gradient(#374151,#111827 )
+}
+header{
+    margin-bottom: 80px;
+}
+h1,h2, article{
+    color: #FFFFFF
+}
+h1{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    margin: 14px 0 0 0;
+
+}
+.sectionProfile{
+    margin:30px 0 0 0;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    
+}
+.info{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    color: #FFFFFF;
+    margin:80px 0 0 0;
+}
+.userinfo{
+    font-family: serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.sectionText{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 69px 0 0 0;
+}
+nav a {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0;
+}
+.bloglink {
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+input {
+    background-color: #1F293799;
+    color:#FFFFFF;
+    width: 224px;
+    height: 40px;
+    border-radius: 32px;
+    padding: 5px 10px;
+}
+footer {
+    background-color: #121928;
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color:#FFFFFF;
+    margin: 103px 0 0 0;
+}
+.researchlink{
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+article {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+nav ul{
+    list-style: none;
+}
+div{
+    margin: 28px 0 0 0;
+}
