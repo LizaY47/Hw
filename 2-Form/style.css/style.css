@@ -1,0 +1,28 @@
+body {
+    background-color: #F39494;
+}
+main {
+    background-color: #FFFEFE;
+}
+h1 {
+    color: #333333;
+    font-size: 36px;
+}
+p {
+    color: #666666;
+    font-size: 18px;
+}
+input {
+    color: #999999;
+    background-color: #F5F5F5;
+    font-size: 16px;
+}
+button {
+    background-color: #089FE0;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+label {
+    color: #666666;
+    font-size: 14px;
+}
