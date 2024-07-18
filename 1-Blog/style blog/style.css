@@ -32,6 +32,7 @@ h2{
     line-height: 16.41px;
     color: #FFFFFF;
     margin:80px 0 0 0;
+    opacity: 60%;
 }
 .userinfo{
     font-family: serif;
@@ -39,6 +40,7 @@ h2{
     font-weight: 400;
     line-height: 28px;
     color: #FFFFFF;
+    opacity: 60%;
 }
 .sectionText{
     font-family: sans-serif;
@@ -98,6 +100,7 @@ article {
 }
 nav ul{
     list-style: none;
+    padding: 0;
 }
 div{
     margin: 28px 0 0 0;
