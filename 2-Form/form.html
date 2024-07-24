@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <link rel="stylesheet" href="./style.css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital@0;1&display=swap"
+    rel="stylesheet">
 </head>
 <body>
     <main>
@@ -14,21 +19,25 @@
                 Уже есть аккаунт?
                 <a href="#">Войти</a>
             </p>
+            <div class="register">
             <div>
-                <input type="text" name="text" id="text" placeholder="Введите название" required>
+                <input name="text" id="text" placeholder="Введите название" required>
             </div>
-            <div>
-                <input type="text" name="fname" id="fname" placeholder="Имя" required>
+            <span>
+                <input  type="text" name="fname" id="fname" placeholder="Имя" required>
                 <input type="text" name="lname" id="lname" placeholder="Фамилия" required>
-            </div>
+            </span>
             <div>
             <input type="email" name="email" id="email" placeholder="E-mail" required>
             </div>
-            <button type="submit">Зарегистрироваться &rarr;</button>
             <div>
+            <button type="submit">Зарегистрироваться &rarr;</button>
+            <div class="checkbox">
                 <input type="checkbox" name="agree" id="agree" required>
-                <label for="agree">Я прочитал и принимаю</label>
+                <label for="agree" class="cb">Я прочитал и принимаю</label>
                 <a href="#">Условия использования</a>
+            </div>
+            </div>
             </div>
         </form>
     </main>
