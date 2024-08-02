@@ -11,7 +11,10 @@
 </head>
 <body>
     <header>
-        <a href="#" class="bloglink" >В Мой блог</a>
+        <div class="blog">
+        <p class="blogIcon">В</p>
+        <a href="#" class="bloglink" >Мой блог</a>
+        </div>
         <nav>
             <ul> 
                 <li><a href="#">HTML и CSS</a></li>
@@ -19,8 +22,9 @@
                 <li><a href="#">Backend</a></li>
             </ul>
         </nav>
-            <form action="#">
-                <input type="search" name="search" id="search" placeholder="Поиск">
+            <form  class="form" action="#">
+               <label for="search"><img src="./search.svg" alt="иконка поиска"></label>
+                <input class="inputText" type="search" maxlength="30" name="search" id="search"  placeholder="Поиск">
             </form>
         </header>
         <main>
@@ -36,7 +40,8 @@
         <h2>Наталья Васильева</h2>
         <p class="userinfo">Разработчик</p></div>
     </section>
-    <div><img src="./imagesblog/Rectangle 181.png" alt="экран компьютера с модемом на оранжевом фоне" /></div>
+    <div class="sectionImg">
+        <img src="./imagesblog/Rectangle 181.png" alt="экран компьютера с модемом на оранжевом фоне" /></div>
     <section class="sectionText">
     <p>
         Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых решений. Цвета и различные их
