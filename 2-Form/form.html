@@ -5,32 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <link rel="stylesheet" href="./style.css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital@0;1&display=swap"
+    rel="stylesheet">
 </head>
 <body>
-    <main>
-        <form action="#">
-            <h1>Регистрация</h1>
-            <p>
+<main>
+     <div class="popup">
+        <form class="form" action="">
+            <div class="group">
+            <div class="headline">
+            <h1 class="title">Регистрация</h1>
+            <p class="description">
                 Уже есть аккаунт?
                 <a href="#">Войти</a>
             </p>
+            </div>
+            <div class="register">
             <div>
-                <input type="text" name="text" id="text" placeholder="Введите название" required>
+                <input name="text" id="text" placeholder="Введите название" required>
+            </div>
+            <div class="name">
+            <div>
+                <input  type="text" name="fname" id="fname" placeholder="Имя" required>
             </div>
             <div>
-                <input type="text" name="fname" id="fname" placeholder="Имя" required>
-                <input type="text" name="lname" id="lname" placeholder="Фамилия" required>
+            <input type="text" name="lname" id="lname" placeholder="Фамилия" required>
+            </div>
             </div>
             <div>
             <input type="email" name="email" id="email" placeholder="E-mail" required>
             </div>
-            <button type="submit">Зарегистрироваться &rarr;</button>
-            <div>
-                <input type="checkbox" name="agree" id="agree" required>
-                <label for="agree">Я прочитал и принимаю</label>
-                <a href="#">Условия использования</a>
+            
+            <button class="registry">Зарегистрироваться </button>
+            <div class="agreement">
+                <input type="checkbox" id="agreement" />
+                <label for="agreement">
+                    <p>Я прочитал и принимаю <a href="#">Условия использования</a></p>
+                </label>
             </div>
-        </form>
-    </main>
+            </div>
+         </div>
+         </div>
+    </form>
+    </div>  
+</main>
 </body>
 </html>
